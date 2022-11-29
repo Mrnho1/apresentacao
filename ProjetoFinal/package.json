@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@mui/icons-material": "^5.10.15",
+    "@mui/material": "^5.10.15",
+    "@react-icons/all-files": "^4.1.0",
+    "framer-motion": "^7.6.12",
+    "react-material-ui-carousel": "^3.4.2",
+    "react-responsive-carousel": "^3.2.23"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}

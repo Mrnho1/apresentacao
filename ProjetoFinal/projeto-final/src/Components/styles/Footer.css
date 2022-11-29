@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: #F2BD1D;
+    color: #111;
+}
+
+.tira {
+    list-style: none;
+}
+
+.cor{
+    padding: 0;
+    margin: 0;
+    background-color: #F2BD1D;
+}
+
+.container{
+    max-width: 1300px;
+    width: 100%;
+    margin: auto;
+    padding: 0px 20px;
+}
+
+.card{
+    flex: 0 0 calc(33.33% - 20px);
+    max-width: 0 0 calc(33.33% - 20px);
+    width: 100%;
+    background: #F2BD1D;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: .3s;
+    border: 2px solid transparent;
+}
+
+.card:hover{
+    border-color: #08629a;
+}
+
+@media(max-width: 600px){
+    .card{
+        flex:0 0 100%;
+        max-width: 100%;
+    }
+}

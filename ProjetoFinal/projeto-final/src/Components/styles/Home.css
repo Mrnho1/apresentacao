@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.fit{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.carousel .slide{
+    background: #dfdfdf;
+    height: 50ch;
+    width: 20%;
+}
+
+/* .carousel .control-dots{
+    margin: 50px auto;
+} */
+
+.carousel li.slide img{
+    height: 50ch;
+    width: 90ch;
+
+}
+
+
